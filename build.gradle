@@ -10,6 +10,7 @@
 apply plugin: 'java-library'
 apply plugin: 'java'
 apply plugin: 'eclipse'
+apply plugin: 'idea'
 
 // In this section you declare where to find the dependencies of your project
 repositories {
@@ -29,5 +30,12 @@ dependencies {
 	compile 'com.google.guava:guava:24.1-jre'	
 
 	compile 'bouncycastle:bcprov-jdk16:140'
+
+    compile 'org.springframework.security:spring-security-jwt:1.0.9.RELEASE'
+
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.9.5'
+
+    compile 'org.apache.commons:commons-collections4:4.1'
+
 }
 
