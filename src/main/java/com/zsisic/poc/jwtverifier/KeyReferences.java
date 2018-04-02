@@ -21,9 +21,7 @@ public class KeyReferences {
      * Payload: {
      *	  "sub": "1234567890",
      *	  "name": "John Doe",
-     *	  "admin": true,
-     *	  "iat": 1516239022,
-     *	  "hello": "bar"
+     *	  "hello": "world"
      * }
      *
      */
